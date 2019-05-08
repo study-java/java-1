@@ -11,7 +11,7 @@ public class Grade {
 		int gr1 = scanner.nextInt();
 		System.out.print("请出入小明这一次成绩：");
 		int gr2 = scanner.nextInt();
-		double f1 = gr2%gr1;
+		double f1 = ((double)gr1)/gr2;	
 		System.out.print("成绩提高的百分比为:");
 		System.out.printf("%.2f%%\n",f1);
 	}
